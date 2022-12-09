@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    border: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+nav{
+    border: 1px solid black;
+    position: fixed;
+    top: 110px;
+    right: -50px;
+}
+main{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 100px;
+    position: static;
+    
+}
+footer{
+    background-color: green;
+    border: 1px solid black;
+    position: fixed;
+    top: 90%;
+    left: 1px;
+    width: 100%;
+}
+
+form{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    z-index: 1;
+    background-color: #80808021;
+    padding: 10px;
+}
+.popup{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #c7c7c7;
+    border: 1px solid black;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 40%;
+    min-width: 31%;
+    box-shadow: 5px 4px 20px 12px #00000096;
+    right: 33%;
+}
+button{
+    width: 17%;
+    position: absolute;
+    right: 8%;
+    background-color: red;
+    top: 7%;
+}
+button>a{color: white;
+text-decoration: none;
+}
